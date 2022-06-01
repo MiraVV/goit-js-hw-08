@@ -41,6 +41,6 @@ function popularTextarea() {
     if(saveDataForm){
       console.log(saveDataForm);
       refs.email.value = saveDataForm.email;
-      refs.message.textcontent =saveDataForm.message;
+      refs.message.value =saveDataForm.message;
      }
 }
